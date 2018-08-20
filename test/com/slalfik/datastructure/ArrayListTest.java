@@ -38,10 +38,10 @@ public class ArrayListTest {
         assertEquals(true,arrayWithThreeElements.isEmpty() );
     }
 
-    @Test
-    public void testClearAndIsEmpty() {
-
-    }
+//    @Test
+//    public void testClearAndIsEmpty() {
+//
+//    }
 
 
     }

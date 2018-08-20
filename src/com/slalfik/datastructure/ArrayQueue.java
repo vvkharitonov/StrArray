@@ -7,7 +7,7 @@ public class ArrayQueue implements Queue{
     private final static int INIT_CAPACITY = 2;
 
     Object[] array;
-    int size;
+    public int size;
 
     public ArrayQueue() {
         array=new Object[INIT_CAPACITY];
