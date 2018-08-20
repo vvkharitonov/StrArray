@@ -1,8 +1,7 @@
 package com.slalfik.datastructure;
 
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
-
+import org.junit.Test;
 
 
 import static org.junit.Assert.*;
@@ -32,5 +31,17 @@ public class ArrayListTest {
         assertEquals(3, arrayWithThreeElements.size());
     }
 
+    @Test
+    public void testClearAndIsEmpty() {
+        arrayWithThreeElements.clear();
+        assertEquals(0, arrayWithThreeElements.size());
+        assertEquals(true,arrayWithThreeElements.isEmpty() );
+    }
 
-}
+    @Test
+    public void testClearAndIsEmpty() {
+
+    }
+
+
+    }
